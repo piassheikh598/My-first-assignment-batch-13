@@ -1,4 +1,40 @@
-body{
+/*body{
 
     background-color: green;
+}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav .menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+nav .btn {
+  background-color: #2B793A;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
